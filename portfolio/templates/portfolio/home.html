@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joan Kinyua</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/css/main.css' %}" type="text/css">
+</head>
+<body>
+    <div class="container">
+    </br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile_wrapper">
+                    <img id="profile_pic" src="{% static 'images/profile1.jpg' %}" alt="Joan's Profile" height="100%" width="100%">
+                    <hr>
+                    <h4><b>Hi I'm Joan!</b></h4>
+                    <p>I  love coding and doing research.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h5><b>Profile</b></h5>
+                    <hr>
+                    <p>My primary goal is to apply my technical expertise all throughout the full software life cycle
+                        to ensure production and delivery of products and services that meet client specifications. Along
+                        with a competent software developing team, and with strong personal knowledge, skills, and experience
+                        in software engineering, I am positive that this goal can be achieved. My experience as junior software
+                        developer enhanced my abilities in designing, implementing, testing, and upgrading software. One of my
+                        objectives is to keep updated with the latest IT trends and technologies. I am confident that if given
+                        the opportunity, I can be a useful talent to any company.
+                    </p>
+                    <ul class="social-links">
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=wamuyujoan4@gmail.com&tf=1" target="_blank"><li><i class="fa fa-envelope" aria-hidden="true" class="social"></i></li></a>
+                        <a href="https://www.instagram.com/wamuyujo1/" target="_blank"><li><i class="fa fa-instagram" aria-hidden="true" class="social"></i></li></a>
+                        <a href="https://www.linkedin.com/in/joan-kinyua-241a891a6/" target="_blank"><li><i class="fa fa-linkedin-square" aria-hidden="true" class="social"></i></li></a>
+                        <a href="https://twitter.com/JoanWamuyu4" target="_blank"><li><i class="fa fa-twitter-square" aria-hidden="true" class="social"></i></li></a>
+                        <a href="https://github.com/Joan-w?tab=repositories" target="_blank"><li><i class="fa fa-github" aria-hidden="true" class="social"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5><b>My Projects</b></h5>
+                    <hr>
+                    <ul class="projects">
+                        <a href="https://joan-w.github.io/Akan-names/" target="_blank"><li><img src="{% static 'images/akan.png' %}" alt="Akan" width="100px" height="100px" style="border-radius: 30px;"></li></a>
+                        <a href="https://joan-w.github.io/Github-App/" target="_blank"><li><img src="{% static 'images/github.png' %}" alt="Github" width="100px" height="100px" style="border-radius: 30px;"></li></a>
+                        <a href="https://joan-w.github.io/Pizza-Peddler/" target="_blank"><li><img src="{% static 'images/pizza.png' %}" alt="Pizza" width="100px" height="100px" style="border-radius: 30px;"></li></a>
+                        <a href="https://joan-w.github.io/Quotes/" target="_blank"><li><img src="{% static 'images/quotes.png' %}" alt="Quotes" width="100px" height="100px" style="border-radius: 30px;"></li></a>
+                    </ul>
+                    <p>You can find more projects in <a href="https://github.com/Joan-w?tab=repositories">Github Repositories</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5><b>What I Know</b></h5>
+                    <hr>
+                    <p>Python, Django, Flask, Angular, HTML/CSS, Javascript/Jquery and a whole bunch more I can't possibly mention in one sentence! ;)</p>
+                    <p>PS: Looking forward to learn C++.</p>
+                </div>
+            </div>
+        </div>
+    </br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5><b>How I Learn</b></h5>
+                    <hr>
+                    <p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+                    <p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code
+                        where I need to figure out why things work the way they do. Documenttion is just a reference.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5><b>My Short Term Goals</b></h5>
+                    <hr>
+                    <p>After Graduating from Moringa School I hope to get a job as Full Stack Developer. I'm also ready to learn something new. I'll
+                        be collaborating and sharing my experience with others on my youtube channel(which am yet to create).
+                    </p>
+                    <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background-color: #0a0101;
+}
+#profile_wrapper{
+    text-align: center;
+}
+#profile_pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.social-links ul, li{
+    list-style-type: none;
+    display: inline-block;
+}
+i{
+    font-size: 30px;
+    color: black;
+}
+.projects ul, li, img{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 30px;
+}
